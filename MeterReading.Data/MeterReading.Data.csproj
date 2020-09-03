@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200902180738_InitialiseDB.cs" />
+    <Compile Remove="Migrations\20200902180738_InitialiseDB.Designer.cs" />
+    <Compile Remove="Migrations\20200903162059_FixAccountIdKey.cs" />
+    <Compile Remove="Migrations\20200903162059_FixAccountIdKey.Designer.cs" />
+    <Compile Remove="Migrations\20200903162342_FixAccountIdKey2.cs" />
+    <Compile Remove="Migrations\20200903162342_FixAccountIdKey2.Designer.cs" />
+    <Compile Remove="Migrations\20200903162747_FixAccountIdKey3.cs" />
+    <Compile Remove="Migrations\20200903162747_FixAccountIdKey3.Designer.cs" />
+    <Compile Remove="Migrations\20200903183855_FixAccountIdKey.cs" />
+    <Compile Remove="Migrations\20200903183855_FixAccountIdKey.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
