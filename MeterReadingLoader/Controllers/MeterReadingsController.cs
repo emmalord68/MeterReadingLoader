@@ -65,7 +65,7 @@ namespace MeterReadingLoader.Controllers
             }
             catch (Exception ex)
             {
-                // Log error
+                // TODO - Log error
                 return BadRequest();
             }
 
